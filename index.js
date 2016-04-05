@@ -20,11 +20,7 @@ module.exports = {
     require("babel-plugin-transform-es2015-block-scoping"),
     require("babel-plugin-transform-es2015-typeof-symbol"),
     require("babel-plugin-transform-es2015-modules-commonjs"),
-    [require("babel-plugin-transform-regenerator"), { async: false, asyncGenerators: false }],
-    require("babel-plugin-transform-runtime"),
-    require("babel-plugin-transform-react-jsx"),
-    require("babel-plugin-syntax-trailing-function-commas"),
-    require("babel-plugin-transform-object-rest-spread"),
-    require("babel-plugin-transform-class-properties")
+    require("babel-plugin-transform-exponentiation-operator"),
+    [require("babel-plugin-transform-regenerator"), { async: false, asyncGenerators: false }]
   ]
 };
